@@ -1,0 +1,25 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS bags and large recordings
+*.bag
+*.db3
+*.db3-shm
+*.db3-wal
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large media (keep the code repo lean)
+*.mov
+*.avi
